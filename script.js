@@ -1,5 +1,5 @@
-const countDisplay = document.querySelector("#count");
-const increaseBtn =document.querySelector("#increase");
+const countDisplay = document.querySelector("count");
+const increaseBtn =document.querySelector("increase");
 
 
 
