@@ -5,7 +5,7 @@ const increaseBtn =document.querySelector("#increase");
 
 let count = 0;
 
-increaseBtn.addEventListener("click",()=> {
+increaseBtn.addEventListener("click",() => {
     count++;
     countDisplay.innerText = count;
 });
@@ -14,6 +14,12 @@ decreaseBtn.addEventListener("click", () => {
     count--;
     countDisplay.innerText =count;
 });
+
+resetBtn.addEventListener("click", () => {
+    count = 0;
+    countDisplay.innerText= count;
+})
+
 
 
 
